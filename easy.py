@@ -3,16 +3,16 @@ import time
 import datetime
 import selenium
 from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
-driver = webdriver.Chrome('Enter the path of chromeDriver')
+
+driver = webdriver.Chrome('Enter the path of chromeDriver')#Enter the Path where You download and placed the ChromeDriver Executable File
 b=time.strftime("%H:%M")
 print (b)
-c=("Enter Your Class-1 Time")
+c=("Enter Your Class-1 Time")#Enter Your Class Time
 # If You have More than one class in one day let me Know!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 d=datetime.date.today().strftime("%A")    
 print("Day of week: ",d)
 
-e=("Enter the Day of your class")
+e=("Enter the Day of your class")#Enter The Day
 if d==e:
     while(b!=c):
         b=time.strftime("%H:%M")
