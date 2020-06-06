@@ -4,23 +4,24 @@ import datetime
 import selenium
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
-driver = webdriver.Chrome('C:/Python38/chromedriver.exe')
+driver = webdriver.Chrome('Enter the path of chromeDriver')
 b=time.strftime("%H:%M")
 print (b)
-c=("11:59")
-
+c=("Enter Your Class-1 Time")
+# If You have More than one class in one day let me Know!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 d=datetime.date.today().strftime("%A")    
 print("Day of week: ",d)
 
-e=("Saturday")
+e=("Enter the Day of your class")
 if d==e:
     while(b!=c):
         b=time.strftime("%H:%M")
         if b==c:        
-            driver.get('https://ilasalle.adobeconnect.com/_a824687455/rm5w629t92kj/?OWASP_CSRFTOKEN=c660577bc42d7ca2e8f73733486e48bc36671ce3a40622c78d80b1d2afd1c74b&proto=true')
+            driver.get('Enter the URL for your adobeConnect class')
+            # Don't Touch Below Part Please, except the 'Enter your name' part
             id_box = driver.find_element_by_name('guestName')
             id_box = driver.find_element_by_id('guestName')
-            id_box.send_keys('rhondi bryan')
+            id_box.send_keys('Enter Your Name for the Online Class')
             login_button = driver.find_element_by_name('feature=1477')
             login_button.click()
             time.sleep(5)
