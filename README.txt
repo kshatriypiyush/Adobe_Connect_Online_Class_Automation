@@ -8,7 +8,7 @@ NOTE:- Right Now for guest login of ADOBE CONNECT Only
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 :)))))))))))))))))))))))))))))))))))))))))))))))))))))))))))):)))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))
-Currently THis Code is Only for one day one class if you want to get it for whole Week let me know i will make it for you.
+THis Code is for five day five class.
 :)))))))))))))))))))))))))))))))))))))))))))))))))))))))))))):)))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))
 
 Every Morning Just Run the Easy.py File and Go to Your Work it will automatically attend your class with your name on time.
@@ -28,5 +28,4 @@ The Below Information is Only Recommended for one with some programming Experien
 programming background.
 
 ===========================================================================================================================================
-Just run the file in the morning and it will attend your lecture automatically on time. Currently i have done it only for 1 Class one day
-. If You want to make it run for everyday or more than one copy the code from conditional statement and input all required field for each day
+Just run the file in the morning and it will attend your lecture automatically on time. Currently i have done it only for 5 Class five day.
